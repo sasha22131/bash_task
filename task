@@ -1,0 +1,15 @@
+#!/bin/bash
+#path = $1
+#oldStr = $2
+#newStr = $3
+#sed -i "s/$1/$2/g" $3change
+#sed -i "s/$oldStr/$newSTR/g" $path
+#######
+#дз 1
+file = $1
+shasum -a 256 $1 > logs.txt
+#2
+date = $2
+name_of_file = $3
+hash = $3
+echo $(shasum -a 256 $3) > logs.txt
